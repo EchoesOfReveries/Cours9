@@ -1,8 +1,9 @@
 import './style.css';
 import {gsap} from "gsap";
 
-const titre = document.querySelector(".titre");
-
-gsap.to (".titre", {
-  x: 10,
+gsap.from(".titre", {
+  x: -1500,
+  duration: 1,
+  ease: "power3.out",
+  stagger: 0.2,
 });
