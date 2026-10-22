@@ -30,3 +30,24 @@ h2 {
   flex-direction: column;
   justify-content: center;
 }
+
+.premiere-section {
+  height: 100vh;
+  padding: 5rem;
+  background-color: white;
+  color: black;
+}
+
+.cartes {
+  margin-top: 5rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.carte {
+  height: 15rem;
+  background-color: #7a7a7a;
+  border-radius: 20px;
+}
