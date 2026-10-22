@@ -5,22 +5,28 @@
 }
 
 body {
-  background-color: #202220;
+  background-color: #232323;
   color: white;
 }
 
 h1,
 h2 {
   font-family: system-ui;
-  margin-left: 100vh;
 }
 
 h1 {
-  font-size: 80px;
-  margin-top: 40vh;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 2.4rem;
 }
 
+.accueil {
+  height: 100vh;
+  padding: 0 5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
