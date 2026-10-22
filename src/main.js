@@ -4,5 +4,5 @@ import {gsap} from "gsap";
 const titre = document.querySelector(".titre");
 
 gsap.to (".titre", {
-  x: 100,
+  x: 10,
 });
